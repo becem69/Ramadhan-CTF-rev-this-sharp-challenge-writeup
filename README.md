@@ -36,6 +36,7 @@ ELF binary  ->  find embedded .NET bundle  ->  extract DLL  ->  decompile C#  ->
 ## Setup instructions
 ```bash
 git clone https://github.com/becem69/Ramadhan-CTF-rev-this-sharp-challenge-writeup.git
+cd Ramadhan-CTF-rev-this-sharp-challenge-writeup
 7z x rev_this_#.bin.7z
 ```
 
