@@ -644,3 +644,10 @@ print("[*] Cleaned up revproj.dll")
 - **Static analysis beats every runtime protection here.** The anti-debug check, timing check, and dynamically emitted validator are all irrelevant when you read the data straight from the DLL without ever executing it.
 - **XOR with a hardcoded key is not encryption.** The key is in the binary. Once you find it, decryption is a one-liner.
 - **Storing a hash instead of the plaintext** does not help if the attacker can read the decrypt routine from the decompiled source.
+
+ 
+---
+
+
+## Author
+**becem69 😝**
