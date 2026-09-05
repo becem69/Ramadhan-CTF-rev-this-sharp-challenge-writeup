@@ -24,7 +24,7 @@
 
 ## Overview
 
-Reverse engineering is the process of analyzing a compiled program without having its original source code. You only have the binary file the computer runs, and your job is to figure out what it does and extract hidden information — in CTF challenges, that hidden information is called a **flag**.
+Reverse engineering is the process of analyzing a compiled program without having its original source code. You only have the binary file the computer runs, and your job is to figure out what it does and extract hidden information in CTF challenges, that hidden information is called a **flag**.
 
 This challenge presents a Linux ELF binary that looks ordinary from the outside. However, it is actually a **.NET 6 self-contained application**: a format where a C# program and the entire .NET runtime are packed together into a single file. The actual C# logic, including the encrypted flag, lives inside an embedded DLL hidden within the binary.
 
