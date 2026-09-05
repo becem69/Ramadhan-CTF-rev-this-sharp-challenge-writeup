@@ -33,7 +33,7 @@ The attack path is:
 ```
 ELF binary  ->  find embedded .NET bundle  ->  extract DLL  ->  decompile C#  ->  XOR decrypt  ->  flag
 ```
-To play this challenge:
+## Setup instructions
 ```bash
 git clone https://github.com/becem69/Ramadhan-CTF-rev-this-sharp-challenge-writeup.git
 7z x rev_this_#.bin.7z
